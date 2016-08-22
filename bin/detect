@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ -e "$BUILD_DIR"/hello-world.txt ]
+then
+  echo "Hello framework"
+  exit 0
+else
+  exit 1
+fi
